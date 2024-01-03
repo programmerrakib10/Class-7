@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+}
+
+html {
+    --backround-color: #F6F3EB;
+    --white-color: #FFFFFF;
+    --heading-color: #314D4A;
+    --paragraph-color: #646D6C;
+    /* --font-size: 62.5%; */
+}
+::selection {
+    background-color: var(--heading-color) ;
+    color: var(--white-color);
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    
+    /* height: 90px; */
+    /* top: 462px;
+    left: 135px; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--paragraph-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: var(--heading-color);
+}
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--heading-color);
+  }  
+
+h4 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: var(--white-color);
+}
+
+nav ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 0px;
+
+}
+.heading {
+    display: block;
+    background-color: var(--backround-color);
+    padding: 30px 0px;
+}
+ul li a {
+    color: var(--paragraph-color);
+}
+
+.Primary-btn {
+    background-color: var(--heading-color);
+    color: var(--white-color);
+    padding: 15px 38px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.logo {
+    width: 127px;
+    height: 38px;
+    top: 41px;
+    left: 135px;
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--heading-color);
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+.hero-content h1 {
+    width: 488px;
+    height: 240px;
+    top: 200px;
+    left: 135px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: var(--heading-color);
+    margin: 22px 0px;
+}
+
+.hero-content p{
+    margin-bottom: 22px;
+    max-width: 490px;
+}
+.hero-image {
+    max-width: 100%;
+}
+.hero-section {
+    background-color: var(--backround-color);
+    padding-bottom: 126px;
+}
+
+/* 2nd section start */
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 200px 135px;
+    text-align: center;
+}
+.divh2 {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    /* padding-bottom: 150px; */
+}
+/* 3rd section start  three-wrapper */
+.h222 {
+    width: 359px;
+    height: 104px;
+    font-size: 42px;
+    line-height: 52px;
+    padding:90px 0px ;
+}
+.sec-3p {
+    width: 464px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 30px;
+    margin:70px 0px ;
+}
+.sp1 {
+    align-items: center;
+}
+.three-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    box-sizing: border-box;
+    gap: 130px;
+}
+.three-wrapper image {
+    max-width: 100%;
+}
+.section-3 {
+    background-color: var(--backround-color);
+}
+.im {
+    padding: 60px 0px;
+}
+.im2 {
+    padding-bottom: 60px;
+}
+.im3 {
+    padding: 60px 0px;
+}
+/* Section 4 Start */
+
+.sec4 {
+    background-color:#0A8270;
+
+}
+.h4p {
+    color: #DDEAE8;
+}
+.number {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 130px;
+}
+
+/* Section 5 Start */
+
+.sec5 {
+    background-color: var(--white-color);
+    padding: 200px 0px;
+}
+.section5 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 90px 0px;
+    gap:40px;
+}
+.sec5 h2 {
+    text-align: center;
+}
+.person {
+    box-shadow: 10px 10px 5px lightblue ;
+    box-sizing: border-box;
+}
+.h23p {
+    text-align: center;
+    box-sizing: border-box;
+    padding:0px 400px;
+    margin-top: 15px;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.work-together {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.form button {
+    text-align: right;
+}
+.together h2 {
+    text-align: left;
+
+}
+.form {
+    justify-content: left;
+}
+
+
+/* Last Section Starttttttt */
+
+.last-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: ;
+}
+.section6 {
+    background-color: var(--backround-color);
+    padding:142px 0px ;
+}
+.section6 ul li {
+    list-style: none;
+}
